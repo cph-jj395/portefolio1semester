@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#logoBoks img {
+	margin: 0px auto;
+}
+
+
+
+/* hamburger drop-down menu - lånt herfra http://www.internetkultur.at/hamburger-drop-with-css-javascript-multi-level-menus/ 
+
+.menu-btn div{
+	position: absolute;
+	left: 100%;
+	font-size: 18px;
+	font-weight: 200;
+	z-index: 99;
+	padding-left: 300px;
+}
+
+.mobileNav {
+	
+}
+
+
+.menu-btn span {
+	display: block;
+	width: 27px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(0,0,0);
+	z-index: 99;
+}
+ 
+.menu-btn P {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+.responsive-menu{
+	display: none;
+	padding-top: 100px;
+}
+
+.responsive-menu a {
+	text-decoration: none;
+	font-family: sans-serif;
+	color: black;
+}
+
+.sub-menu a {
+	font-size: 14px;
+}
+
+.responsive-menu li{
+	list-style: none;
+}
+ 
+.expand {
+	display: block !important; 
+}
+
+
+
+ hamburger drop-down menu - slutter her*/
+ 
+
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+/* Forside starter her */
+
+#forsideBoks img {
+	width: 200px;
+	height: auto;
+}
+
+/* Forside slutter her */
+
+
+/* Portefolio start her*/
+
+#portefolioOverskriftBoks {
+	position: fixed;
+	background-color: #FEFEFF;
+}
+
+#portefolioOverskriftBoks h1{
+	margin-bottom: 5px;
+}
+
+
+#stickynav a {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+section {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+section h2{
+	margin-top: 70px; 			/* ændres når header kommer ind */ 
+}
+
+
+
+
+
+/* Portefolio slutter her*/
+	
+
+
+/* Footer starter her*/
+#logoFooter {
+	margin-left: 33.33%;
+}
+
+#mailikonFooter {
+	margin-left: 33.33%;
+	
+	
+/* Footer slutter her*/	
+}

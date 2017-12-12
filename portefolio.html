@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JDJ - Portefolio</title>
+<link href="portefolio-stylesheet.css" rel="stylesheet">
+<link rel="stylesheet" href="stylesheetMobil.css"  media="screen and (min-width: 320px) and (max-width:480px)">	
+
+<!--Loader jQuery fra server-->
+	<script type="text/javascript" src="script/jq.js">
+	</script>
+	<!--Her indsættes jQuery scroll animation fra "https://github.com/flesler/jquery.scrollTo"-->
+	<script type="text/javascript" src="script/jquery.scrollTo.min.js"></script>
+	
+	<!-- Embedded javascript-->
+	<script type="text/javascript">
+	// the famous document.ready function
+	$(document).ready(function(){
+		//alle js kode til dokumentet (selve websitet) kommer her:
+		$("#stickynav a").click(function(){
+			
+			$(window).scrollTo(this.hash,1000);		
+		});
+		
+		//(document).ready ende-klamper
+	});
+	</script>
+	
+</head>
+
+<body>
+	
+	
+
+<div class="overskrift" id="portefolioOverskriftBoks">
+	<h1>PORTEFOLIO</h1>
+	
+<nav id="stickynav">
+		<a href="#flow1">FLOW 1</a>
+		<a href="#flow2">FLOW 2</a>
+		<a href="#flow3">FLOW 3</a>
+		<a href="#flow4">FLOW 4</a>
+		<a href="#flow5">FLOW 5</a>
+</nav>
+</div>		
+
+<section id="flow1">
+	<h2>FLOW 1 - Drøm din portefolio</h2>
+</section>
+	
+<section id="flow2">
+	<h2>FLOW 2 - Byg din portefolio</h2>
+</section>	
+	
+<section id="flow3">
+	<h2>FLOW 3 - Byg en app</h2>
+</section>
+	
+<section id="flow4">
+	<h2>FLOW 4 - Byg Sweetbot Responsive Design</h2>
+</section>		
+
+	
+<section id="flow5">
+	<h2>FLOW 5 - Min Portefolio</h2>
+	
+	<h3>Planlægning af projektet</h3>
+		<h4>PBS</h4>
+		<h4>WBS</h4>
+		<h4>Gantt-kort</h4>
+	<h3>Farver</h3>
+	<p>https://www.color-hex.com/color/accde3 - Farven er brugt til drop shadow på linjen øverst samt i menulinjen til flowsene på portefolio siden</p>
+	<p>www.color-hex.com/color/d0e3f0 - Farven er brugt til footeren og linjen øverst på siden ved navigationsbaren</p>
+	<h3>Fonts</h3>
+	
+	
+</section>	
+	
+</body>
+</html>
